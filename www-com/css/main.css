@@ -1,0 +1,65 @@
+body {
+    background-color: #B37820;
+    color: white;
+    margin: 0;
+}
+
+h1 h3 {
+    color: #ffffff;
+    text-transform: uppercase;   
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 1vh auto 1vh auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 1vh auto 1vh auto;
+}
+
+main {
+    width: 60vw;
+    margin: 5vh auto 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+section.blurb > p {
+    text-align: justify;
+    font-size: 2rem;
+}
+
+.splash_sketch {
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.splash_sketch > img{
+    width: 50%;
+}
+
+.slide_show {
+    margin: 0 auto 0 auto;
+}
+
+.slide_show > article {
+    width: 100%;
+    margin: 2vh auto 2vh auto;
+}
+
+footer {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+
+footer>p {
+    margin: 0 auto 0 auto;
+}
