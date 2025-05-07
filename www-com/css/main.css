@@ -6,7 +6,7 @@ body {
 
 h1 h3 {
     color: #ffffff;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 
 h1 {
@@ -28,27 +28,66 @@ main {
     gap: 10px;
 }
 
-section.blurb > p {
+section.blurb>p {
     text-align: justify;
     font-size: 2rem;
 }
 
-.splash_sketch {
-    margin: 0 auto 0 auto;
+.splash {
+    margin: 0 auto 2vh auto;
+    width: 80vw;
     text-align: center;
 }
 
-.splash_sketch > img{
+.splash>img {
+    box-shadow: 20px 10px 10px black;
+}
+
+.splash_sketch>img {
+    margin: 2vh;
     width: 50%;
+}
+
+.splash_about {
+    text-align: center;
+}
+
+.splash_about>img {
+    width: 100%;
 }
 
 .slide_show {
     margin: 0 auto 0 auto;
 }
 
-.slide_show > article {
+.slide_show>article {
     width: 100%;
     margin: 2vh auto 2vh auto;
+}
+
+.contact {
+    
+}
+
+.contact>form {
+    width: 25vw;
+    margin: 5vh auto 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh 0;
+}
+
+.contact>form>label {
+    width: 4vw;
+}
+
+.contact>form>input {
+    width: 20vw;
+}
+
+.contact>form>textarea {
+    width: 20vw;
+    height: 40vh;
 }
 
 footer {
