@@ -66,6 +66,7 @@ h2 {
     color: var(--brown);
     font-family: var(--header-font-family);
     text-transform: uppercase;
+    font-weight: 100;
 }
 
 h2 {

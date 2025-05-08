@@ -1,0 +1,37 @@
+section>h2 {
+    color: #000000;
+    font-size: 4rem;
+    border-bottom: 3px solid #FF8300;
+}
+
+#highlights>ul {
+    font-size: 1.5rem;
+    margin: 5vh 2vw 5vh 2vw;
+}
+
+#director-bio>article {}
+
+#director-bio>article>figure {
+    float: left;
+    margin: 0 2vw 2vh 2vw;
+    width: 15vw;
+}
+
+#director-bio>article>figure>img {
+    width: 100%;
+    border: 5px solid red;
+    border-radius: 3px;
+}
+
+#director-bio>article>header {
+    font-size: 2rem;
+}
+
+#director-bio>article>p {
+    font-size: 1.5rem;
+}
+
+#director-bio>article>ul {
+    font-size: 1.5rem;
+    display: flow-root;
+}

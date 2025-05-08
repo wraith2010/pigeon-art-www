@@ -1,6 +1,4 @@
-
-
-header {
+body>header {
     width: 60vw;
     min-height: 7vh;
     margin: 5vh auto 0 auto;
@@ -11,26 +9,26 @@ header {
     border-radius: 2vw 2vw 0 0;
 }
 
-header>ul {
+body>header>ul {
     display: flex;
-    flex-wrap: nowrap;    
+    flex-wrap: nowrap;
     justify-content: center;
     margin: 1vh auto auto auto;
 }
 
-header>ul>li {
+body>header>ul>li {
     display: inline-block;
     list-style: none;
     border-left: var(--border);
     padding: 0 1vw 0 1vw;
 }
 
-header>ul>li:first-child {
+body>header>ul>li:first-child {
     border-left: none;
     padding: 0 1vw 0 0;
 }
 
-header>ul>li>a {
+body>header>ul>li>a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
@@ -38,7 +36,7 @@ header>ul>li>a {
     font-size: 1.2rem;
 }
 
-footer {
+body>footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
