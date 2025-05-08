@@ -25,6 +25,7 @@ section>h2 {
 
 #director-bio>article>header {
     font-size: 2rem;
+    font-family: var(--header-font-family);
 }
 
 #director-bio>article>p {

@@ -1,0 +1,5 @@
+section>article>figure {
+    float: left;
+    margin: 0 2vw 2vh 2vw;
+    width: 15vw;
+}
